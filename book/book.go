@@ -5,16 +5,16 @@ import (
 )
 
 func GetBooks(c *fiber.Ctx) {
-	c.SendString("All Books")
+	c.Send("All Books")
 }
 
 func GetBook(c *fiber.Ctx) {
-	c.SendString("A Single Book")
+	c.Send("A Single Book")
 }
 
 func NewBook(c *fiber.Ctx) {
-	c.SendString("Adds a new Book")
+	c.Send("Adds a new Book")
 }
 func DeleteBook(c *fiber.Ctx) {
-	c.SendString("Deletes a Book")
+	c.Send("Deletes a Book")
 }
