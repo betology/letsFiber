@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/gofiber/fiber/v2"
-	"github.com/betology/letsfiber/book"
+	"github.com/betology/letsFiber/book"
 )
 
 func helloWorld(c *fiber.Ctx) error {
